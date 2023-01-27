@@ -1,0 +1,18 @@
+$grid-columns: 24 !default;
+@import "~bootstrap/scss/bootstrap";
+@import "colors";
+@import "globals";
+@import "pages/dashboard";
+@import "pages/activity-detail";
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: $bg-gray;
+    min-width: 460px;
+    min-height: 100vh;
+}
